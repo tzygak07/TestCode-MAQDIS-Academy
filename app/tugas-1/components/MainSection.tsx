@@ -2,9 +2,6 @@ export default function MainSection() {
   return (
     <section className="max-w-[1280px] mx-auto px-8 py-24 grid grid-cols-1 md:grid-cols-2 items-center gap-16">
       <div className="order-2 md:order-1">
-        <span className="text-sm font-medium text-blue-600 mb-8 block uppercase">
-          First
-        </span>
         <h1 className="text-4xl font-bold text-slate-900 mb-8 leading-tight">
           Designing the Future of Corporate Excellence.
         </h1>
