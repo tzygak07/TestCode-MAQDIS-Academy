@@ -49,3 +49,5 @@ Project ini terbagi menjadi beberapa bagian tugas (berbasis Next.js App Router):
 *Dibuat oleh Farrel Raza Sigak Amrullah untuk seleksi Front End Developer Maqdis Academy.*
 
 > **Catatan Tambahan:** Mohon maaf sebelumnya, saya tidak bisa menambahkan akun Github **@rianlesmana03** dan **@purnamarizal77** sebagai member/trainer pada repository ini dikarenakan username tersebut tidak ditemukan saat saya mencoba mengundangnya (user not found).
+
+Untuk mempermudah Bapak/Ibu pemeriksa, saya sudah melakukan deploy pada project ini di Vercel: [https://test-code-maqdis-academy-xi.vercel.app/](https://test-code-maqdis-academy-xi.vercel.app/)
