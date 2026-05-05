@@ -12,7 +12,6 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Card Tugas 1 */}
           <Link 
             href="/tugas-1" 
             className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg hover:border-gray-300 transition-all duration-200"
@@ -33,7 +32,6 @@ export default function Home() {
             </div>
           </Link>
 
-          {/* Card Tugas 2 */}
           <Link 
             href="/tugas-2" 
             className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg hover:border-gray-300 transition-all duration-200"
@@ -54,7 +52,6 @@ export default function Home() {
             </div>
           </Link>
 
-          {/* Card Tugas 3 */}
           <Link 
             href="/tugas-3" 
             className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg hover:border-gray-300 transition-all duration-200"

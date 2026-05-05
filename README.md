@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Test Code Maqdis Academy
 
-## Getting Started
+**Kandidat:** Farrel Raza Sigak Amrullah  
+**Posisi:** Front End Developer  
 
-First, run the development server:
+Ini adalah project [Next.js](https://nextjs.org) yang dibuat untuk keperluan test di Maqdis Academy. Project ini mencakup implementasi dari beberapa tugas yang telah diberikan.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Cara Menjalankan Project (Getting Started)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Pastikan Anda sudah menginstal Node.js di perangkat Anda. Ikuti langkah-langkah berikut untuk menjalankan project di environment lokal:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Install Dependencies**  
+   Buka terminal di dalam direktori project dan jalankan perintah:
+   ```bash
+   npm install
+   # atau
+   yarn install
+   # atau
+   pnpm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Jalankan Development Server**  
+   Setelah instalasi selesai, jalankan server dengan:
+   ```bash
+   npm run dev
+   # atau
+   yarn dev
+   # atau
+   pnpm dev
+   ```
 
-## Learn More
+3. **Lihat Hasilnya**  
+   Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
 
-To learn more about Next.js, take a look at the following resources:
+## 📂 Struktur Aplikasi
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Project ini terbagi menjadi beberapa bagian tugas (berbasis Next.js App Router):
+- **Tugas 1:** Dapat diakses melalui rute `/tugas-1` -> Berisi komponen layouting dan slicing dasar (Header, MainSection, Footer).
+- **Tugas 2:** Dapat diakses melalui rute `/tugas-2` -> Berisi komponen dashboard interaktif (Sidebar, Topbar, UserStatsChart).
+- **Tugas 3:** Dapat diakses melalui rute `/tugas-3` -> Berisi komponen lanjutan dan integrasi data (Sidebar, Promo, Progress, dll).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Teknologi yang Digunakan
+- **Framework:** Next.js (App Router)
+- **Library UI:** React
+- **Styling:** Tailwind CSS
+- **Bahasa:** TypeScript
 
-## Deploy on Vercel
+---
+*Dibuat oleh Farrel Raza Sigak Amrullah untuk seleksi Front End Developer Maqdis Academy.*
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> **Catatan Tambahan:** Mohon maaf sebelumnya, saya tidak bisa menambahkan akun Github **@rianlesmana03** dan **@purnamarizal77** sebagai member/trainer pada repository ini dikarenakan username tersebut tidak ditemukan saat saya mencoba mengundangnya (user not found).
