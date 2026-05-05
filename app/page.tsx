@@ -12,8 +12,8 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <Link 
-            href="/tugas-1" 
+          <Link
+            href="/tugas-1"
             className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg hover:border-gray-300 transition-all duration-200"
           >
             <div className="flex flex-col h-full">
@@ -32,8 +32,8 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link 
-            href="/tugas-2" 
+          <Link
+            href="/tugas-2"
             className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg hover:border-gray-300 transition-all duration-200"
           >
             <div className="flex flex-col h-full">
@@ -44,7 +44,7 @@ export default function Home() {
                 Tugas Kedua
               </h3>
               <p className="text-sm text-gray-600 flex-grow">
-                (Segera diimplementasikan sesuai instruksi berikutnya).
+                Halaman web tampilan admin.
               </p>
               <div className="mt-4 text-green-600 text-sm font-medium">
                 Lihat →
@@ -52,8 +52,8 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link 
-            href="/tugas-3" 
+          <Link
+            href="/tugas-3"
             className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg hover:border-gray-300 transition-all duration-200"
           >
             <div className="flex flex-col h-full">
@@ -64,7 +64,7 @@ export default function Home() {
                 Tugas Ketiga
               </h3>
               <p className="text-sm text-gray-600 flex-grow">
-                (Segera diimplementasikan sesuai instruksi berikutnya).
+                Halaman web yang dinamis menampilkan data yang ada.
               </p>
               <div className="mt-4 text-purple-600 text-sm font-medium">
                 Lihat →
