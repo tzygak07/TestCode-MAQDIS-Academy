@@ -1,10 +1,7 @@
+import Link from "next/link";
 import { programHafalan } from "../data";
 
-interface ProgramCardsProps {
-  onSelectProgram: (program: any) => void;
-}
-
-export default function ProgramCards({ onSelectProgram }: ProgramCardsProps) {
+export default function ProgramCards() {
   const patternStyle = {
     backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white' opacity='0.3'%3E%3Cpath d='M12 0C12 6.6 17.4 12 24 12C17.4 12 12 17.4 12 24C12 17.4 6.6 12 0 12C6.6 12 12 6.6 12 0z'/%3E%3C/svg%3E")`,
     backgroundSize: '20px 20px',
@@ -15,9 +12,9 @@ export default function ProgramCards({ onSelectProgram }: ProgramCardsProps) {
   return (
     <div className="space-y-4 pt-2 lg:pt-4">
       {programHafalan.map((program) => (
-        <div 
+        <Link 
           key={program.id} 
-          onClick={() => onSelectProgram(program)}
+          href={`/tugas-3/product/${program.id}`}
           className={`cursor-pointer block bg-gradient-to-r from-[#fcb366] to-[#f48031] rounded-xl p-4 lg:p-5 text-white relative overflow-hidden shadow-sm group hover:shadow-md hover:-translate-y-0.5 active:scale-[0.98] transition-all duration-300 ease-out`}
         >
           <div className="absolute top-0 right-[-10px] w-[100px] lg:w-[140px] h-full opacity-60" style={patternStyle}></div>
@@ -42,7 +39,7 @@ export default function ProgramCards({ onSelectProgram }: ProgramCardsProps) {
               </p>
             </div>
           </div>
-        </div>
+        </Link>
       ))}
     </div>
   );
